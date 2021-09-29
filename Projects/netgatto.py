@@ -3,6 +3,8 @@
 # Netgatto meow 
 # My own implementation of netcat. Emerson 28.09.2021
 
+import sys
+
 # collect the arguments
 hostname = sys.argv[1]
 port     = int(sys.argv[2])
